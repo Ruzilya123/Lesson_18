@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 9</title>
+</head>
+<body>
+    <section>
+        <div class="container pb-3 shadow rounded">
+            <div class="row">
+            <div class="col-lg-12">
+                <h1 class="text-center">Калькулятор расчета платы программисту за работу</h1>
+            </div>
+            <div class="col-md-12">
+                <form>
+                    <div class="row mb-3">
+                        <div class="form-group col-md-6 col-sm-6">
+                            <p class="badge badge-warning">Выберите услугу создания сайта:</p>
+                            <input type="radio" name="type" id="usluga" value="250">
+                            <label for="usluga">Просто вёрстка макета</label>
+                            <input type="radio" name="type" id="usluga2" value="2387">
+                            <label for="usluga2">С бэкендом</label>
+                            <input type="radio" name="type" id="usluga3" value="1476">
+                            <label for="usluga3">С фронтендом</label>
+                            <input type="radio" name="type" id="usluga4" value="3990">
+                            <label for="usluga4">Целый сайт</label>
+                        </div>
+                    </div>
+                    <div class="custom-control custom-checkbox row d-flex justify-content-center mb-3">
+                        <div class="col-md-3" style="visibility: visible;">
+                            <input type="checkbox" id="load" name="mess" class="custom-control-input"/>
+                            <label class="custom-control-label" for="load">Официально</label>
+                        </div>
+                
+                        <div class="col-md-3" style="visibility: visible;">
+                            <input type="checkbox" id="del" name="messa" class="custom-control-input"/>
+                            <label class="custom-control-label" for="del">Без сроков</label>
+                        </div>
+                
+                    </div>
+                    <div class="row mb-3">
+                
+                        <div class="form-group col-md-12">
+                            <label for="range">Количество секций: <span class="section">0</span> <span>штук</span></label>
+                            <input type="range" name="col" class="custom-range" min="1" max="10" step="1" id="range" value="10"/>
+                        </div>
+                
+                    </div>
+                    <div class="row col-12 mb-3"><span id="out">0.0</span> <span class="rub">₽</span></div>
+                    <div class="row">
+                        <div class="col-md-2 col-12">
+                            <input type="submit" name="adress" id="btn" class="btn-block btn btn-primary" value="Считать"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

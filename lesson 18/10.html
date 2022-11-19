@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" onclick="changeValue(event)">
+        <tr class="noedit">
+            <td>Имя</td>
+            <td>Фамилия</td>
+        </tr>
+        <tr>
+            <td>Иван</td>
+            <td>Иванов</td>
+        </tr>
+        <tr>
+            <td>Потап</td>
+            <td>Климский</td>
+        </tr>
+    </table>
+
+    <input type="text" placeholder="Имя" name="" id="fname">
+    <input type="text" placeholder="Фамилия" name="" id="lname">
+    <button onclick="addUser()">Записать</button>
+
+    <script src="assets/js/main.js">
+    </script>
+</body>
+</html>

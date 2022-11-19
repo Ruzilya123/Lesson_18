@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="section6">
+        <button onclick="closeModal()">close</button>
+        <h2>Registration</h2>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Phone">
+        <input type="text" placeholder="E-mail">
+        <input type="text" placeholder="Password">
+        <button>Send</button>
+        <p>Log in</p>
+    </div>
+
+    <header class="section1">
+        <div class="section1__logo">
+            <a href="registration.html"><img src="./assets/images/section1_logo.png" alt=""></a>
+        </div>
+        <nav class="section1__navbar">
+            <div class="section1__navbar-list">
+                <div class="section1__navbar-item section1__navbar-item-active section1__navbar-item-down">
+                    <p>Games</p>
+                </div>
+                <div class="section1__navbar-item section1__navbar-item-down">
+                    <p>Consoles</p>
+                </div>
+                <div class="section1__navbar-item">
+                    <p>Community</p>
+                </div>
+            </div>
+            <div class="section1__navbar-search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="section1__navbar-profile">
+                <div class="section1__navbar-item section1__navbar-item-down">
+                        <img src="./assets/images/section1_profile.png" alt="">
+                        <p onclick="openModal()">My XBOX</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <hr class="section1-section2">
+
+    <section class="section2">
+        <img src="./assets/images/section2_right.png" class="section2__carousel-right"></img>
+        <img src="./assets/images/section2_left.png" class="section2__carousel-left"></img>
+        <div class="section2__carousel-indicators">
+            <img src="./assets/images/section2_in_true.png" alt="">
+            <img src="./assets/images/section2_in_false.png" alt="">
+            <img src="./assets/images/section2_in_false.png" alt="">
+        </div>
+        <div class="section2__caption">
+            <div class="section2__caption-texts">
+                <h2>Star Wars</h2>
+                <h3>Battlefront II</h3>
+            </div>
+            <div class="section2__caption-null"></div>
+            <div class="section2__caption-buttons">
+                <button class="section2__caption-button-left">Watch Trailer</button>
+                <button class="section2__caption-button-right">Explore Games</button>
+            </div>
+        </div>
+
+        <img src="./assets/images/section2_background.png" alt="" class="section2__background">
+    </section>
+
+    <script src="./assets/js/main.js">
+    </script>
+</body>
+</html>
